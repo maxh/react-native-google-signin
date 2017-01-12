@@ -33,6 +33,8 @@ Includes Google Sign-In SDK v4.0.0
 [![link config](https://github.com/apptailor/react-native-google-signin/raw/master/img/link-config.png)](#config)
 
 
+- Add `GoogleSignIn.bundle` to your Xcode project's Copy Bundle Resources build phase.
+
 - Configure URL types in the ```Info``` panel
   - add a URL with scheme set to your ```REVERSED_CLIENT_ID``` (found inside the plist)
   - add a URL with scheme set to your ```bundle id```
